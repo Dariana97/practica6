@@ -3,6 +3,8 @@ import '../services/storage_service.dart';
 import '../models/conversion_history.dart';
 
 class HistoryScreen extends StatefulWidget {
+  const HistoryScreen({super.key});
+
   @override
   _HistoryScreenState createState() => _HistoryScreenState();
 }
